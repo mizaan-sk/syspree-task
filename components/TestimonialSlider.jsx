@@ -90,7 +90,7 @@ export default function TestimonialSlider() {
   viewport={{ once: true, amount: 0.2 }}
 >
       {/* Heading */}
-      <div className="py-[1rem] md:py-[1vw]">
+      <div className="py-[1rem] bg-white! md:py-[1vw]">
         <h2
           className="
             text-center

@@ -40,7 +40,7 @@ export default function AboutSection() {
   const resetTilt = () => setTilt({ x: 0, y: 0 });
 
   return (
-    <>
+    <div className="bg-white!">
       <section className="w-full bg-white flex flex-col lg:flex-row overflow-hidden">
         {/* LEFT SIDE */}
         <motion.div
@@ -183,6 +183,6 @@ export default function AboutSection() {
           border-radius: 10px;
         }
       `}</style>
-    </>
+    </div>
   );
 }
