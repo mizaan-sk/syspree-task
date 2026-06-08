@@ -36,7 +36,7 @@ export default function Overview() {
             Right Clients, Right Price, Right Results Tailored For You
           </motion.p>
 
-          <motion.h1 variants={item} className="mt-3 text-[26px] text-center md:text-[2.5vw] font-semibold leading-tight">
+          <motion.h1 variants={item} className="mt-3 text-[26px] text-black text-center md:text-[2.5vw] font-semibold leading-tight">
             <span className="text-orange-500">Digital Marketing</span>{" "}
             and <span className="text-orange-500">Web Development</span>
           </motion.h1>
@@ -54,7 +54,7 @@ export default function Overview() {
             variants={item}
             className="mt-8 md:mt-[2vw] border border-gray-300 shadow-md p-5 md:p-[1.5vw] w-full md:w-[80%]"
           >
-            <h3 className="text-center text-[16px] md:text-[1.2vw] mb-5">
+            <h3 className="text-center text-black! text-[16px] md:text-[1.2vw] mb-5">
               Whats your thought?
             </h3>
 
@@ -67,7 +67,7 @@ export default function Overview() {
                   onChange={(e) => setChoice(e.target.value)}
                   className="mt-1"
                 />
-                <span>
+                <span className="text-black!">
                   Yes, I want to increase profits through digital marketing{" "}
                   <span className="text-orange-500 font-semibold">88%</span>
                 </span>
@@ -81,7 +81,7 @@ export default function Overview() {
                   onChange={(e) => setChoice(e.target.value)}
                   className="mt-1"
                 />
-                <span>
+                <span className="text-black!">
                   No, I am not ready to grow just yet{" "}
                   <span className="text-orange-500 font-semibold">12%</span>
                 </span>

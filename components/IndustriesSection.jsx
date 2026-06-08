@@ -169,7 +169,7 @@ export default function IndustriesSection() {
                       font-semibold
                       text-center
                       text-[18px]
-                      md:text-[1vw]
+                      md:text-[1vw] text-black!
                     "
                   >
                     {item.title}

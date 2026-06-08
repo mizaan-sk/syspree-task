@@ -54,7 +54,7 @@ export default function AboutSection() {
           <div className="flex flex-col min-h-0">
             <motion.h2
               variants={itemVariants}
-              className="text-2xl lg:text-[2.2vw] font-bold"
+              className="text-2xl text-black! lg:text-[2.2vw] font-bold"
             >
               About Syspree
             </motion.h2>
@@ -85,7 +85,7 @@ export default function AboutSection() {
                 precision to your industry and goals.{" "}
               </p>{" "}
               {/* Section Title */}{" "}
-              <h4 className="mt-6 text-[18px] lg:text-[1.3vw] font-semibold">
+              <h4 className="mt-6 text-black! text-[18px] lg:text-[1.3vw] font-semibold">
                 {" "}
                 Why Choose Syspree?{" "}
               </h4>{" "}
@@ -112,7 +112,7 @@ export default function AboutSection() {
                 </li>{" "}
               </ul>{" "}
               {/* Team Section */}{" "}
-              <h4 className="mt-6 text-[18px] lg:text-[1.3vw] font-semibold">
+              <h4 className="mt-6 text-black! text-[18px] lg:text-[1.3vw] font-semibold">
                 {" "}
                 Our Team: Digital Growth Architects{" "}
               </h4>{" "}
@@ -161,7 +161,7 @@ export default function AboutSection() {
       </section>
 
       {/* CTA */}
-      <div className="flex justify-center my-6">
+      <div className="flex justify-center my-6 bg-white!">
         <Link href="/about-us">
           <motion.button
             whileHover={{ scale: 1.05 }}

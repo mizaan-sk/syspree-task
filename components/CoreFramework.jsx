@@ -48,7 +48,7 @@ const cardVariants = {
 
 export default function CoreFramework() {
   return (
-    <section className="relative overflow-hidden  py-[60px] md:py-[5vw]">
+    <section className="relative overflow-hidden bg-white! py-[60px] md:py-[5vw]">
       {/* Background Watermark */}
       <div className="absolute inset-0 flex items-center justify-center opacity-[0.04] pointer-events-none">
         <Image

@@ -28,7 +28,7 @@ const brands = [
 
 export default function TrustedBrands() {
   return (
-    <section className="relative overflow-hidden   py-[6vw] max-md:py-[60px]">
+    <section className="relative overflow-hidden bg-white!  py-[6vw] max-md:py-[60px]">
 
       {/* Background Shape */}
       <div className="absolute left-[8%] top-0 h-[18vw] w-[18vw] opacity-[0.03] max-md:hidden">

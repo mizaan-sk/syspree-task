@@ -107,7 +107,7 @@ export default function CaseStudiesSection() {
                       Case Study
                     </span>
 
-                    <h3 className="mt-[8px] text-[18px] lg:text-[1.2vw] font-bold leading-[26px]">
+                    <h3 className="mt-[8px] text-[18px]title text-black! lg:text-[1.2vw] font-bold leading-[26px]">
                       {card.title}
                     </h3>
 
