@@ -54,7 +54,7 @@ export default function IndustriesSection() {
       {/* Orange Glow Border */}
       <div className="absolute inset-0 rounded-[20px] bg-[#f7931e] opacity-[0.08]" />
 
-      <div className="relative z-10 w-[94%] max-w-[1800px] mx-auto">
+      <div className="relative z-10 w-[94%] md:max-w-[90vw] mx-auto">
         {/* Main Container */}
         <div
           className="

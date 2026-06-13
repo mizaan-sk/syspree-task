@@ -60,7 +60,7 @@ export default function CoreFramework() {
         />
       </div>
 
-      <div className="relative z-10 mx-auto w-[92%] max-w-[1600px]">
+      <div className="relative z-10 ">
         {/* Top Label */}
         <motion.p
           initial={{ opacity: 0, y: -20 }}
@@ -112,7 +112,7 @@ export default function CoreFramework() {
           className="
             mx-auto
             mt-5
-            max-w-[900px]
+            md:max-w-[50vw]
             text-center
             leading-relaxed
             text-[#666]

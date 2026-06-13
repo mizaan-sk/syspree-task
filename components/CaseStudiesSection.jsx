@@ -40,7 +40,7 @@ export default function CaseStudiesSection() {
 
   return (
     <section className="bg-[#f5f5f5]">
-      <div className="mx-auto max-w-[1920px]">
+      <div className="">
 
         <div className="grid lg:grid-cols-[38%_62%]">
 
